@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+   <h1>Realiza tu pedido</h1>
+
+<form action="formulario.js">
+   <label for="nombre">Ingresa tu nombre</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Escriba aquí"><br><br>
+   <label for="direccion">Ingresa tu dirección</label><br>
+    <input type="text" id="direccion" name="direccion" placeholder="Escriba aquí"><br><br>
+   <label for="telefono">Ingresa tu número de teléfono</label><br>
+    <input type="tel" id="telefono" name="telefono" placeholder="Escriba aquí"><br><br>
+    <label for="correo">Ingresa tu correo electrónico</label><br>
+    <input type="email" id="correo" name="correo" placeholder="Escriba aquí"><br><br> 
+    <label for="descripcion">Descripción general del pastel</label><br>
+    <input type="text" id="descripcion" name="descripcion" placeholder="Escriba aquí"><br><br>
+    
+    Sabor del pastel<br>
+    <select name="sabor" id="sabor">
+        <option value="chocolate">Chocolate</option>
+        <option value="vainilla">Vainilla</option>
+        <option value="fresa">Fresa</option>
+        <option value="red velvet">Red velvet</option>
+        <option value="napolitano">Napolitano</option> 
+    </select><br><br>
+
+    Seleccione la decoración de su pastel<br>
+    <label for="decoracion">Velas</label>
+    <input type="checkbox" name="decoracion" id="velas"><br>
+    <input type="number" name="decoracion" id="numero_velas" placeholder="Número de velas"><br>
+    <label for="decoracion">Betún</label>
+    <input type="checkbox" name="decoracion" id="betun"><br>
+    <label for="decoracion">Fondat</label>
+    <input type="checkbox" name="decoracion" id="fondat"><br>
+    <label for="decoracion">Frutas</label>
+    <input type="checkbox" name="decoracion" id="fruta"><br>
+    <input type="number" name="decoracion" id="numero_frutas" placeholder="¿cuántas frutas?"><br>
+    <select name="topping_fruta" id="topping_fruta">
+        <option value="fresas">Fresas</option>
+        <option value="kiwi">Kiwi</option>
+        <option value="pina">Piña</option>
+        <option value="platano">Platano</option>
+        <option value="manzana">Manzana</option>
+    </select>
+    
+    <br><br>
+    <input type="reset"> 
+    <input type="submit">
+
+</form>
+</body>
+
+</html>
